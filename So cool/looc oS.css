@@ -10,20 +10,35 @@ body {
     height: 130px;
 }
 .Sumka {
-    width: 200px;
-    height: 100px;
-    margin-bottom: 10px;
+    width: 158px;
+    height: 133px;
+    background-image: url(sumka_close.png);
+    cursor: pointer;
 }
 .Sumka:hover {
-    
     background-image: url(sumka_open.png);
-    margin-bottom: 10px;
 }
-header {
+.header {
+    align-items: center;
+    display: flex;
     background-color: #ff0000;
-    color: #fff;
+    color: white;
     padding: 1rem;
     box-shadow: 0px 0px 4px rgb(128, 0, 0);
+}
+.katalog button {
+    background-color:#ff0000;
+    color: white;
+    border-width: 3px;
+    border-color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.katalog button:hover {
+    background-color: white;
+    color:#ff0000;
 }
 .baba {
     display: grid;
@@ -32,9 +47,8 @@ header {
     gap: 3rem;
     padding: 2rem;
 }
-
 .zags {
-    background-color: #fff;
+    background-color: white;
     padding: 1rem;
     text-align: center;
     border-radius: 10px;
@@ -43,6 +57,8 @@ header {
 
 .zags img {
     margin-bottom: 1rem;
+    width: 200px;
+    height: auto;
 }
 
 .zags h3 {
@@ -51,7 +67,7 @@ header {
 
 .zags button {
     background-color: #ff0000;
-    color: #fff;
+    color: white;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -67,5 +83,5 @@ footer {
     padding: 1rem;
     background-color: #ff0000;
     box-shadow: 0px 0px 4px rgb(128, 0, 0);
-    color: #fff;
+    color: white;
 }
