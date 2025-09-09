@@ -3,13 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ff0000;
-    background-image: url(So_cool_backround_100.png);
+    background-image: url(So_cool_backround_2.png);
 }
 .Socool {
     width: 220px;
     height: 130px;
 }
 .Sumka {
+    margin-left: 200px;
     width: 158px;
     height: 133px;
     background-image: url(sumka_close.png);
@@ -26,14 +27,17 @@ body {
     padding: 1rem;
     box-shadow: 0px 0px 4px rgb(128, 0, 0);
 }
+.katalog {
+    padding-left: 370px;
+}
 .katalog button {
-    background-color:#ff0000;
+    border: 5px solid white;
     color: white;
-    border-width: 3px;
-    border-color: white;
+    background-color:#ff0000;
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 5px;
+    font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .katalog button:hover {
@@ -57,8 +61,9 @@ body {
 
 .zags img {
     margin-bottom: 1rem;
-    width: 200px;
+    width: 500px;
     height: auto;
+    border-radius: 10px;
 }
 
 .zags h3 {
