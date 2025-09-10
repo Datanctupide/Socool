@@ -44,6 +44,33 @@ body {
     background-color: white;
     color:#ff0000;
 }
+.sigain {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 0px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.sigain:hover {
+    border: 5px solid white;
+    color: rgb(255, 0, 0);
+    background-color:#ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sigaup {
+    border: 5px solid white;
+    color: white;
+    background-color:#ff0000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.sigaup:hover {
+    background-color: white;
+    color:#ff0000;
+}
 .baba {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
